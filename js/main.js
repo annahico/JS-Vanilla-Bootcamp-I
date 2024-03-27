@@ -33,27 +33,23 @@
 
 // console.log("segundo",videojuegosDani);
 
-// // Prueba de manejos de ARRAY
+//Prueba de manejos de ARRAY
 
 let verduras = ["colifor", "lechuga", "apio", "cebolla", "pimiento", "puerro"];
 
-console.log("primero",verduras);
+verduras.shift() //elimina el primer elemento del ARRAY
 
-verduras.push("espinacas");
+verduras.unshift("tomate") //intriduce un elemento en la primera posición del ARRAY
 
-console.log("segundo", verduras);
+verduras.pop() //elimina el último elemento del ARRAY
 
-verduras.pop("espinacas");
+verduras.pop() //elimina el último elemento del ARRAY
 
-console.log("tercero",verduras);
+verduras.push("espinacas") ///introduce un elemento al final del ARRAY
 
-verduras.shift("coliflor");
+console.log(verduras)
 
-console.log("cuarto", verduras);
 
-verduras.unshift("tomate");
-
-console.log("quinto", verduras);
 
 
 
