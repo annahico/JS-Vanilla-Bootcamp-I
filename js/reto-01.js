@@ -108,9 +108,9 @@ Ves cambiando los valores para comprobar que funciona.
     condición de salida (3 intentos y si acierta sale, aunque le queden intentos).*/
 
     // Definimos la contraseña
-let contrasena = "1234";
+let password = "1234";
 
-function verificarContrasena() {
+function verificarPassword() {
     // Número máximo de intentos
     let intentosMaximos = 3;
     // Variable para contar los intentos
@@ -119,10 +119,10 @@ function verificarContrasena() {
     // Bucle para pedir la contraseña hasta que se acierte o se agoten los intentos
     while (intentos < intentosMaximos) {
         // Solicitar la contraseña al usuario
-        let intentoContrasena = prompt("Introduce la contraseña:");
+        let intentoPassword = prompt("Introduce la contraseña:");
         
         // Verificar si la contraseña es correcta
-        if (intentoContrasena === contrasena) {
+        if (intentoPassword === password) {
             // Mostrar mensaje de éxito
             alert("¡Enhorabuena! Has ingresado la contraseña correcta.");
             // Salir del bucle
@@ -142,4 +142,4 @@ function verificarContrasena() {
 }
 
 // Llamar a la función para iniciar la verificación de la contraseña
-verificarContrasena();
+verificarPassword();
