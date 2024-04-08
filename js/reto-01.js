@@ -108,7 +108,7 @@ Ves cambiando los valores para comprobar que funciona.
     condición de salida (3 intentos y si acierta sale, aunque le queden intentos).*/
 
     // Definimos la contraseña
-let contrasena = "contraseña123";
+let contrasena = "1234";
 
 function verificarContrasena() {
     // Número máximo de intentos
